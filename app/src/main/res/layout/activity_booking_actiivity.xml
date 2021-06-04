@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".BookingActiivity">
+
+
+    <TextView
+        android:id="@+id/location_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/fui_transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_address"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/fui_transparent"
+        android:fontFamily="@font/open_sans_semibold"
+        android:singleLine="false"
+        android:text="address"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/parking_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="@color/quantum_grey"
+        android:layout_below="@id/location_address"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:text="Parking Time"
+        android:background="@color/fui_transparent"
+        android:textSize="18sp" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/parking_time_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/parking_time_text"
+        android:background="@color/fui_transparent"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fui_transparent"
+            android:orientation="horizontal"
+            android:paddingLeft="13dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp">
+
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/payment_method_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="@color/quantum_grey"
+        android:layout_below="@id/parking_time_scrollview"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:text="Payment Method"
+        android:background="@color/fui_transparent"
+        android:textSize="18sp" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/paymet_method_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/payment_method_txt"
+        android:background="@color/fui_transparent"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fui_transparent"
+            android:orientation="horizontal"
+            android:paddingLeft="13dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp">
+
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+            <Button
+                android:layout_width="159dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_bookingactiivity_btn"
+                android:text="Button 1"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+
+</RelativeLayout>

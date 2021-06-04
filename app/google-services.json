@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "209871198785",
+    "firebase_url": "https://parkme-2020.firebaseio.com",
+    "project_id": "parkme-2020",
+    "storage_bucket": "parkme-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209871198785:android:0b9f124e663759b1ed44c0",
+        "android_client_info": {
+          "package_name": "com.parkme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209871198785-6l3idn97566lbeg7ctnpgsv6qemrgml5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkme",
+            "certificate_hash": "be9cbcd3a657de132538b843fcb7ea14442a9fe9"
+          }
+        },
+        {
+          "client_id": "209871198785-v593j7nt2bs7a7bds3a38dao61tt6c36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAxPL6wHl1W0uzDz_b8FF8vYO-4lU1ygk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209871198785-v593j7nt2bs7a7bds3a38dao61tt6c36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FF5722</color>
+    
+    <color name="lightGray">#8F8F8F</color>
+    <color name="trnsSearchBtn">#EAEAEA</color>
+
+    <color name="disabledBtnBg">#999999</color>
+
+    <color name="backgroundColour">#434346</color>
+
+
+    <color name="stringColour">#FFFFFF</color>
+
+
+
+</resources>
